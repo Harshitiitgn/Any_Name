@@ -31,11 +31,9 @@ def calculate_perimeter_rectangle(l, b):
 def main():
     """Main function to demonstrate the usage of the above functions."""
     greet("Harshit")
-    
     r = 5
     l = 10
     b = 6
-    
     # Call all the functions and print their results
     area = calculate_area(r)
     perimeter = calculate_perimeter_circle(r)
@@ -43,7 +41,6 @@ def main():
     square_perimeter = calculate_perimeter_square(l)
     rectangle_area = calculate_area_rectangle(l, b)
     rectangle_perimeter = calculate_perimeter_rectangle(l, b)
-    
     print(f"The area of a circle with radius {r} is {area}")
     print(f"The perimeter of a circle with radius {r} is {perimeter}")
     print(f"The area of a square with side {l} is {square_area}")
