@@ -1,9 +1,10 @@
+import math
+
 def greet(name):
     """Greet the user with the provided name."""
     print(f"Hello, {name}!")
 
 def calculate_perimeter_circle(r):
-    import math
     """Calculate the perimeter (circumference) of a circle."""
     return 2 * math.pi * r
 
