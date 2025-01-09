@@ -5,35 +5,35 @@ import math
 of different shapes like circle, square, and rectangle.'''
 
 def greet(name):
-    '''Greet the user with the provided name.'''
+    """Greet the user with the provided name."""
     print(f"Hello, {name}!")
 
 def calculate_perimeter_circle(r):
-    '''Calculate the perimeter (circumference) of a circle.'''
+    """Calculate the perimeter (circumference) of a circle."""
     return 2 * math.pi * r
 
 def calculate_area(r):
-    '''Calculate the area of a circle.'''
+    """Calculate the area of a circle."""
     return math.pi * r**2
 
 def calculate_area_square(l):
-    '''Calculate the area of a square.'''
+    """Calculate the area of a square."""
     return l**2
 
 def calculate_perimeter_square(l):
-    '''Calculate the perimeter of a square.'''
+    """Calculate the perimeter of a square."""
     return 4 * l
 
 def calculate_area_rectangle(l, b):
-    '''Calculate the area of a rectangle.'''
+    """Calculate the area of a rectangle."""
     return l * b
 
 def calculate_perimeter_rectangle(l, b):
-    '''Calculate the perimeter of a rectangle.'''
+    """Calculate the perimeter of a rectangle."""
     return 2 * (l + b)
 
 def main():
-    '''Main function to demonstrate the usage of the above functions.'''
+    """Main function to demonstrate the usage of the above functions."""
     greet("Harshit")
     
     r = 5
