@@ -1,9 +1,5 @@
 import math
 
-# Module docstring
-'''This module provides functions to calculate the area and perimeter 
-of different shapes like circle, square, and rectangle.'''
-
 def greet(name):
     """Greet the user with the provided name."""
     print(f"Hello, {name}!")
