@@ -1,4 +1,5 @@
 import math
+"""Importing math function library."""
 
 def greet(name):
     """Greet the user with the provided name."""
