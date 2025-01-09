@@ -3,6 +3,8 @@ import math
 def greet(name):
     print(f"Hello, {name}!")
 
+'''To greet the user with the name provided as an argument.'''
+
 def calculate_perimeter_circle(r):
     return 2 * math.pi * r
 '''To calculate the perimeter of a circle. The formula is 2 * π * r, where r is the radius of the circle.'''
