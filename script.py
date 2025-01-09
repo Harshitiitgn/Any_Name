@@ -1,36 +1,37 @@
 import math
 
-'''To greet the user with the name provided as an argument.'''
 def greet(name):
+    '''To greet the user with the name provided as an argument.'''
     print(f"Hello, {name}!")
 
-'''To calculate the perimeter of a circle. The formula is 2 * π * r.'''
 def calculate_perimeter_circle(r):
+    '''To calculate the perimeter of a circle. The formula is 2 * π * r.'''
     return 2 * math.pi * r
 
-'''To calculate the area of a circle. The formula is π * r^2.'''
+
 def calculate_area(r):
+    '''To calculate the area of a circle. The formula is π * r^2.'''
     return math.pi * r**2
 
-'''To calculate the area of a square. The formula is l^2, where l is the length.'''
 def calculate_area_square(l):
+    '''To calculate the area of a square. The formula is l^2.'''
     return l**2
 
-'''To calculate the perimeter of a square. The formula is 4 * l.'''
 def calculate_perimeter_square(l):
+    '''To calculate the perimeter of a square. The formula is 4 * l.'''
     return 4 * l
 
-'''To calculate the area of a rectangle. The formula is l * b.'''
 def calculate_area_rectangle(l, b):
+    '''To calculate the area of a rectangle. The formula is l * b.'''
     return l * b
 
-'''To calculate the perimeter of a rectangle. The formula is 2 * (l + b).'''
 def calcualte_perimeter_rectangle(l, b):
+    '''To calculate the perimeter of a rectangle. The formula is 2 * (l + b).'''
     perimeter  = 2 * (l + b)
     return perimeter
 
-'''The main function is used to call the other functions and print the results.'''
 def main():
+    '''The main function is used to call the other functions and print the results.'''
     greet("Harshit")
     r = 5
     l = 10
